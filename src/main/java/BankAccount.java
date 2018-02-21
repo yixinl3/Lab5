@@ -19,8 +19,17 @@ public class BankAccount {
         WORKPLACE
     }
 
+    /**
+     * the account number.
+     */
     private int accountNumber;
-    public BankAccountType accountType;
+    /**
+     *  the account type.
+     */
+    private BankAccountType accountType;
+    /**
+     * the account balance.
+     */
     private double accountBalance;
     private String ownerName;
     public double interestRate;
