@@ -31,14 +31,30 @@ public class BankAccount {
      * the account balance.
      */
     private double accountBalance;
+    /**
+     * the name of owner.
+     */
     private String ownerName;
-    public double interestRate;
+    /**
+     * the interest rate.
+     */
+    private double interestRate;
+    /**
+     *  the interest earned.
+     */
     private double interestEarned;
 
+    /**
+     * the constructor.
+     *@param name the name.
+     *@param accountCategory account category.
+     */
     public BankAccount(final String name, final BankAccountType accountCategory) {
         /*
          * Implement this function
          */
+        ownerName = name;
+        accountType = accountCategory;
     }
 
     /*
